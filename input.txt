@@ -1,5 +1,5 @@
 dimension-(2)
-xlength,ylength-(100,100)
+xlength,ylength-(100,50)
 lattice type-(D2Q5)
 diffusion or advection-(advection)
 velocity value-(1)

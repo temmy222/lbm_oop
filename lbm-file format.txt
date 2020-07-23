@@ -1,16 +1,18 @@
-dimension
-xlength,ylength
-lattice type
-diffusion or advection
-velocity
-diffusion coefficient
-topbc type
-topbc parameter
-bottombc type
-parameter
-leftbc type
-parameter
-rightbc type
-parameter
-total time
-timestep
+dimension-value
+xlength,ylength-value,value
+lattice type-value
+diffusion or advection-value
+velocity-value
+diffusion coefficient-value
+topbc type-value
+topbc parameter-value
+bottombc type-value
+parameter-value
+leftbc type-value
+parameter-value
+rightbc type-value
+parameter-value
+source location-value
+source parameter-value
+total time-value
+timestep-value

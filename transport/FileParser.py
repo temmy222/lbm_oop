@@ -49,13 +49,74 @@ class FileParser(object):
         return value
 
     @property
-    def velocity(self):
-        value = self.get_value(self.line[4])
+    def diffusion_coefficient(self):
+        value = self.get_value(self.line[5])
         return value
 
     @property
-    def diffusion_coefficient(self):
-        value = self.get_value(self.line[4])
+    def topBC_type(self):
+        value = self.get_value(self.line[6])
         return value
 
+    @property
+    def topBC_value(self):
+        value = self.get_value(self.line[7])
+        return value
+
+    @property
+    def bottomBC_type(self):
+        value = self.get_value(self.line[8])
+        return value
+
+    @property
+    def bottomBC_value(self):
+        value = self.get_value(self.line[9])
+        return value
+
+    @property
+    def leftBC_type(self):
+        value = self.get_value(self.line[10])
+        return value
+
+    @property
+    def leftBC_value(self):
+        value = self.get_value(self.line[11])
+        return value
+
+    @property
+    def rightBC_type(self):
+        value = self.get_value(self.line[12])
+        return value
+
+    @property
+    def rightBC_value(self):
+        value = self.get_value(self.line[13])
+        return value
+
+    @property
+    def xSourceLocation(self):
+        full_value = self.get_value(self.line[14])
+        value = self.split_line(full_value, ",")[0]
+        return value
+
+    @property
+    def ySourceLocation(self):
+        full_value = self.get_value(self.line[14])
+        value = self.split_line(full_value, ",")[1]
+        return value
+
+    @property
+    def sourceValue(self):
+        value = self.get_value(self.line[15])
+        return value
+
+    @property
+    def simulationTime(self):
+        value = self.get_value(self.line[16])
+        return value
+
+    @property
+    def timeStep(self):
+        value = self.get_value(self.line[17])
+        return value
 

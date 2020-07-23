@@ -1,0 +1,16 @@
+dimension
+xlength,ylength
+lattice type
+diffusion or advection
+velocity
+diffusion coefficient
+topbc type
+topbc parameter
+bottombc type
+parameter
+leftbc type
+parameter
+rightbc type
+parameter
+total time
+timestep
